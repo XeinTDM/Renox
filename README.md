@@ -43,7 +43,7 @@ To get Renox up and running on your local machine, follow these steps:
     ```
 4.  **Build the application:**
     ```bash
-    pnpm tauri build
+    bun tauri build
     ```
 
 This will build the application for your respective operating system. The executable will be located in `src-tauri/target/release/bundle/`.
