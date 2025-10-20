@@ -20,7 +20,7 @@ To get Renox up and running on your local machine, follow these steps:
 
 *   Node.js (v20 or higher recommended)
 *   Rust (latest stable version)
-*   pnpm (for package management)
+*   bun (for package management)
 
 ### Steps
 
@@ -31,7 +31,7 @@ To get Renox up and running on your local machine, follow these steps:
     ```
 2.  **Install frontend dependencies:**
     ```bash
-    pnpm install
+    bun install
     ```
 3.  **Create an `.env` file (or set environment variables):**
     ```bash
@@ -70,7 +70,7 @@ For detailed information about the permissions system, see [PERMISSIONS.md](./PE
 To run Renox in development mode:
 
 ```bash
-pnpm tauri dev
+bun tauri dev
 ```
 
 This will open the Renox application in a development window, complete with hot-reloading for frontend changes.
