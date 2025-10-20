@@ -1,0 +1,199 @@
+{
+  "general": {
+    "launchOnStartup": "Iniciar na inicialização",
+    "minimizeToTray": "Minimizar para a bandeja",
+    "hardwareAcceleration": "Aceleração de hardware",
+    "language": "Idioma",
+    "autoUpdateCheats": "Atualizar cheats automaticamente",
+    "scanForNewCheatsOnStartup": "Verificar novos cheats na inicialização",
+    "notifications": {
+      "generalSounds": "Sons gerais",
+      "appUpdates": "Atualizações do aplicativo",
+      "cheatUpdates": "Atualizações de cheats",
+      "errors": "Erros"
+    }
+  },
+  "settings": {
+    "title": "Settings",
+    "categories": {
+      "account": "Account",
+      "appearance": "Appearance",
+      "general": "General",
+      "security": "Security",
+      "branding": "Branding",
+      "developer": "Developer",
+      "backupRestore": "Backup & Restore"
+    },
+    "errorCategoryNotFound": "Error: Category not found.",
+    "startupAndWindow": "Inicialização e Janela",
+    "performance": "Desempenho",
+    "notifications": "Notificações",
+    "localization": "Localização",
+    "cheatManagement": "Gerenciamento de cheats"
+  },
+  "roles": {
+    "user": {
+      "name": "User",
+      "description": "Standard user with basic access"
+    },
+    "reseller": {
+      "name": "Reseller",
+      "description": "Reseller with management capabilities"
+    },
+    "developer": {
+      "name": "Developer",
+      "description": "Cheat developer with full cheat management"
+    },
+    "admin": {
+      "name": "Administrator",
+      "description": "Full system administrator"
+    }
+  },
+  "permissions": {
+    "cheat:view": {
+      "name": "View Cheats",
+      "description": "Can view available cheats"
+    },
+    "cheat:launch": {
+      "name": "Launch Cheats",
+      "description": "Can launch cheats"
+    },
+    "license:view": {
+      "name": "View Licenses",
+      "description": "Can view own licenses"
+    },
+    "license:add": {
+      "name": "Add Licenses",
+      "description": "Can add licenses to account"
+    },
+    "cheat:manage": {
+      "name": "Manage Cheats",
+      "description": "Can manage cheat status and settings"
+    },
+    "user:view": {
+      "name": "View Users",
+      "description": "Can view user accounts"
+    },
+    "license:manage": {
+      "name": "Manage Licenses",
+      "description": "Can create and manage licenses"
+    },
+    "sales:view": {
+      "name": "View Sales",
+      "description": "Can view sales data"
+    },
+    "cheat:create": {
+      "name": "Create Cheats",
+      "description": "Can create new cheats"
+    },
+    "cheat:delete": {
+      "name": "Delete Cheats",
+      "description": "Can delete cheats"
+    },
+    "reseller:manage": {
+      "name": "Manage Resellers",
+      "description": "Can manage reseller accounts"
+    },
+    "system:settings": {
+      "name": "System Settings",
+      "description": "Can modify system settings"
+    },
+    "user:manage": {
+      "name": "Manage Users",
+      "description": "Can manage all user accounts"
+    },
+    "role:manage": {
+      "name": "Manage Roles",
+      "description": "Can manage user roles and permissions"
+    },
+    "system:admin": {
+      "name": "System Administration",
+      "description": "Full system administration access"
+    }
+  },
+  "accountSettings": {
+    "manageLicenses": {
+      "toast": {
+        "license": "License",
+        "enterLicenseKey": "Enter a license key",
+        "licenseAlreadyAdded": "License already added",
+        "licenseAdded": "License added",
+        "removeLicenseTitle": "Remove License",
+        "removeLicenseConfirm": "Are you sure you want to remove the license: {licenseToRemove}?",
+        "licenseRemoved": "License removed"
+      }
+    }
+  },
+  "appearanceSettings": {
+    "title": "Appearance",
+    "accentColor": {
+      "label": "Accent Color",
+      "selectAccent": "Select {color} accent"
+    },
+    "fontSize": {
+      "label": "Font size",
+      "small": "Small",
+      "medium": "Medium",
+      "large": "Large",
+      "xl": "XL"
+    },
+    "density": {
+      "label": "Density",
+      "cozy": "Cozy",
+      "compact": "Compact"
+    }
+  },
+  "brandingSettings": {
+    "title": "Branding",
+    "appName": "App Name",
+    "logoUrl": "Logo URL",
+    "websiteUrl": "Website URL",
+    "supportUrl": "Support URL",
+    "preview": "Preview"
+  },
+  "securitySettings": {
+    "title": "Security",
+    "enablePinAppLock": "Enable PIN / App Lock",
+    "lockOnMinimize": "Lock on Minimize",
+    "setChangePin": "Set/Change PIN",
+    "savePin": "Save PIN",
+    "encryptLocalDataNow": "Encrypt Local Data Now",
+    "encrypt": "Encrypt",
+    "toast": {
+      "pin": "PIN",
+      "pinSaved": "PIN saved",
+      "failedToSavePin": "Failed to save PIN",
+      "encryption": "Encryption",
+      "localDataEncrypted": "Local data encrypted",
+      "failedToEncryptData": "Failed to encrypt data"
+    }
+  },
+  "developerSettings": {
+    "title": "Developer",
+    "developerMode": "Developer Mode",
+    "verboseLogs": "Verbose Logs",
+    "openDataFolder": "Open Data Folder",
+    "openConfigFolder": "Open Config Folder",
+    "open": "Open"
+  },
+  "backupRestoreSettings": {
+    "title": "Backup & Restore",
+    "exportSettings": "Export Settings",
+    "importSettings": "Import Settings",
+    "resetToDefaults": "Reset to Defaults",
+    "exportJson": "Export JSON",
+    "importJson": "Import JSON",
+    "reset": "Reset",
+    "toast": {
+      "import": "Import",
+      "settingsImportedSuccessfully": "Settings imported successfully",
+      "failedToImportSettings": "Failed to import settings",
+      "reset": "Reset",
+      "settingsResetToDefaults": "Settings reset to defaults"
+    },
+    "confirmation": {
+      "resetSettingsTitle": "Reset Settings",
+      "resetSettingsMessage": "Are you sure you want to reset all settings to defaults? This action cannot be undone."
+    }
+  }
+}

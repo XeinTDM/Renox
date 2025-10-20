@@ -1,0 +1,113 @@
+import type { DisplayItem } from '../types/displayItem';
+
+export const games: DisplayItem[] = [
+  {
+    id: 1,
+    name: 'Warzone 2',
+    licensed: false,
+    status: 'Maintenance',
+    image: '/Warzone2.webp',
+    description: 'A popular battle royale game.',
+    prices: [
+      { type: 'day', value: '$5.99' },
+      { type: 'week', value: '$15.99' },
+      { type: 'month', value: '$40.99' },
+      { type: 'lifetime', value: '$99.99' },
+    ],
+  },
+  {
+    id: 2,
+    name: 'Apex Legends',
+    licensed: true,
+    status: 'Expires in 23h',
+    image: '/ApexLegends.webp',
+    description: 'A free-to-play battle royale game.',
+    prices: [
+      { type: 'day', value: '$6.99' },
+      { type: 'week', value: '$17.99' },
+      { type: 'month', value: '$45.99' },
+      { type: 'lifetime', value: '$109.99' },
+    ],
+  },
+  {
+    id: 3,
+    name: 'Fortnite',
+    licensed: false,
+    status: 'Updating',
+    image: '/Fortnite.webp',
+    description: 'A popular online video game.',
+    prices: [
+      { type: 'day', value: '$4.99' },
+      { type: 'week', value: '$12.99' },
+      { type: 'month', value: '$35.99' },
+      { type: 'lifetime', value: '$89.99' },
+    ],
+  },
+  {
+    id: 4,
+    name: 'CS2',
+    licensed: true,
+    status: 'Undetected',
+    image: '/CS2.webp',
+    description: 'A tactical first-person shooter.',
+    prices: [
+      { type: 'day', value: '$7.99' },
+      { type: 'week', value: '$19.99' },
+      { type: 'month', value: '$50.99' },
+      { type: 'lifetime', value: '$119.99' },
+    ],
+  },
+  {
+    id: 5,
+    name: 'Rust',
+    licensed: true,
+    status: 'Detected',
+    image: '/Rust.webp',
+    description: 'A survival video game.',
+    prices: [
+      { type: 'day', value: '$8.99' },
+      { type: 'week', value: '$22.99' },
+      { type: 'month', value: '$55.99' },
+      { type: 'lifetime', value: '$129.99' },
+    ],
+  },
+  {
+    id: 6,
+    name: 'Valorant',
+    licensed: false,
+    status: 'Not Licensed',
+    image: '/Valorant.webp',
+    description: 'A character-based tactical shooter.',
+    prices: [
+      { type: 'day', value: '$3.99' },
+      { type: 'week', value: '$10.99' },
+      { type: 'month', value: '$30.99' },
+      { type: 'lifetime', value: '$79.99' },
+    ],
+  },
+  {
+    id: 7,
+    name: 'Rainbow Six Siege',
+    licensed: false,
+    status: 'Undetected',
+    image: '/RainbowSixSiege.webp',
+    description: 'A tactical shooter video game.',
+    prices: [
+      { type: 'day', value: '$5.99' },
+      { type: 'week', value: '$15.99' },
+      { type: 'month', value: '$40.99' },
+      { type: 'lifetime', value: '$99.99' },
+    ],
+  },
+];
+
+export const filterOptions = [
+  { label: 'All', value: 'all' },
+  { label: 'Licensed', value: 'licensed' },
+  { label: 'Unlicensed', value: 'unlicensed' },
+  { label: 'Detected', value: 'detected' },
+  { label: 'Undetected', value: 'undetected' },
+  { label: 'Maintenance', value: 'maintenance' },
+  { label: 'Updating', value: 'updating' },
+  { label: 'Expires', value: 'expires' },
+];

@@ -1,0 +1,46 @@
+{
+  "name": "renox",
+  "version": "0.1.0",
+  "description": "",
+  "type": "module",
+  "scripts": {
+    "dev": "vite dev",
+    "build": "vite build",
+    "preview": "vite preview",
+    "check": "svelte-kit sync && svelte-check --tsconfig ./tsconfig.json",
+    "check:watch": "svelte-kit sync && svelte-check --tsconfig ./tsconfig.json --watch",
+    "tauri": "tauri",
+    "format": "prettier --write \"**/*.{js,ts,svelte,json,css}\"",
+    "lint": "eslint \"src/**/*.{js,ts,svelte}\""
+  },
+  "license": "MIT",
+  "dependencies": {
+    "@lucide/svelte": "^0.546.0",
+    "@tauri-apps/plugin-opener": "^2.5.0",
+    "svelte-i18n": "^4.0.1"
+  },
+  "devDependencies": {
+    "@sveltejs/adapter-static": "^3.0.10",
+    "@sveltejs/kit": "^2.47.2",
+    "@sveltejs/vite-plugin-svelte": "^6.2.1",
+    "@tailwindcss/vite": "^4.1.15",
+    "@tauri-apps/api": "^2.9.0",
+    "@tauri-apps/cli": "^2.9.0",
+    "@typescript-eslint/eslint-plugin": "^8.46.2",
+    "@typescript-eslint/parser": "^8.46.2",
+    "eslint": "^9.38.0",
+    "eslint-config-prettier": "^10.1.8",
+    "eslint-plugin-import": "^2.32.0",
+    "eslint-plugin-node": "^11.1.0",
+    "eslint-plugin-promise": "^7.2.1",
+    "eslint-plugin-svelte": "^3.12.5",
+    "prettier": "^3.6.2",
+    "prettier-plugin-svelte": "^3.4.0",
+    "svelte": "^5.41.1",
+    "svelte-check": "^4.3.3",
+    "tailwindcss": "^4.1.15",
+    "typescript": "^5.9.3",
+    "vite": "^7.1.11",
+    "vite-plugin-imagemin": "^0.6.1"
+  }
+}

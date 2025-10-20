@@ -1,0 +1,220 @@
+{
+  "general": {
+    "launchOnStartup": "Beim Start starten",
+    "minimizeToTray": "In den Infobereich minimieren",
+    "hardwareAcceleration": "Hardwarebeschleunigung",
+    "language": "Sprache",
+    "autoUpdateCheats": "Cheats automatisch aktualisieren",
+    "scanForNewCheatsOnStartup": "Beim Start nach neuen Cheats suchen",
+    "notifications": {
+      "generalSounds": "Allgemeine Töne",
+      "appUpdates": "App-Updates",
+      "cheatUpdates": "Cheat-Updates",
+      "errors": "Fehler"
+    }
+  },
+  "settings": {
+    "title": "Einstellungen",
+    "categories": {
+      "account": "Konto",
+      "appearance": "Erscheinungsbild",
+      "general": "Allgemein",
+      "security": "Sicherheit",
+      "branding": "Branding",
+      "developer": "Entwickler",
+      "backupRestore": "Sicherung & Wiederherstellung"
+    },
+    "errorCategoryNotFound": "Fehler: Kategorie nicht gefunden.",
+    "startupAndWindow": "Start & Fenster",
+    "performance": "Leistung",
+    "notifications": "Benachrichtigungen",
+    "localization": "Lokalisierung",
+    "cheatManagement": "Cheat-Verwaltung"
+  },
+  "roles": {
+    "user": {
+      "name": "Benutzer",
+      "description": "Standardbenutzer mit grundlegendem Zugriff"
+    },
+    "reseller": {
+      "name": "Wiederverkäufer",
+      "description": "Wiederverkäufer mit Verwaltungsfunktionen"
+    },
+    "developer": {
+      "name": "Entwickler",
+      "description": "Cheat-Entwickler mit vollständiger Cheat-Verwaltung"
+    },
+    "admin": {
+      "name": "Administrator",
+      "description": "Vollständiger Systemadministrator"
+    }
+  },
+  "permissions": {
+    "cheat:view": {
+      "name": "Cheats anzeigen",
+      "description": "Kann verfügbare Cheats anzeigen"
+    },
+    "cheat:launch": {
+      "name": "Cheats starten",
+      "description": "Kann Cheats starten"
+    },
+    "license:view": {
+      "name": "Lizenzen anzeigen",
+      "description": "Kann eigene Lizenzen anzeigen"
+    },
+    "license:add": {
+      "name": "Lizenzen hinzufügen",
+      "description": "Kann Lizenzen zum Konto hinzufügen"
+    },
+    "cheat:manage": {
+      "name": "Cheats verwalten",
+      "description": "Kann Cheat-Status und -Einstellungen verwalten"
+    },
+    "user:view": {
+      "name": "Benutzer anzeigen",
+      "description": "Kann Benutzerkonten anzeigen"
+    },
+    "license:manage": {
+      "name": "Lizenzen verwalten",
+      "description": "Kann Lizenzen erstellen und verwalten"
+    },
+    "sales:view": {
+      "name": "Verkäufe anzeigen",
+      "description": "Kann Verkaufsdaten anzeigen"
+    },
+    "cheat:create": {
+      "name": "Cheats erstellen",
+      "description": "Kann neue Cheats erstellen"
+    },
+    "cheat:delete": {
+      "name": "Cheats löschen",
+      "description": "Kann Cheats löschen"
+    },
+    "reseller:manage": {
+      "name": "Wiederverkäufer verwalten",
+      "description": "Kann Wiederverkäuferkonten verwalten"
+    },
+    "system:settings": {
+      "name": "Systemeinstellungen",
+      "description": "Kann Systemeinstellungen ändern"
+    },
+    "user:manage": {
+      "name": "Benutzer verwalten",
+      "description": "Kann alle Benutzerkonten verwalten"
+    },
+    "role:manage": {
+      "name": "Rollen verwalten",
+      "description": "Kann Benutzerrollen und Berechtigungen verwalten"
+    },
+    "system:admin": {
+      "name": "Systemadministration",
+      "description": "Vollständiger Systemadministrationszugriff"
+    }
+  },
+  "accountSettings": {
+    "roleAndPermissions": {
+      "title": "Rolle & Berechtigungen",
+      "yourPermissions": "Ihre Berechtigungen",
+      "manageRoles": "Rollen verwalten"
+    },
+    "manageLicenses": {
+      "toast": {
+        "license": "Lizenz",
+        "enterLicenseKey": "Lizenzschlüssel eingeben",
+        "licenseAlreadyAdded": "Lizenz bereits hinzugefügt",
+        "licenseAdded": "Lizenz hinzugefügt",
+        "removeLicenseTitle": "Lizenz entfernen",
+        "removeLicenseConfirm": "Möchten Sie die Lizenz wirklich entfernen: {licenseToRemove}? ",
+        "licenseRemoved": "Lizenz entfernt"
+      },
+      "title": "Lizenzen verwalten",
+      "noActiveLicenses": "Keine aktiven Lizenzen gefunden.",
+      "enterLicenseKey": "Lizenzschlüssel eingeben",
+      "addLicense": "Lizenz hinzufügen",
+      "remove": "Entfernen"
+    },
+    "twoFactorAuth": {
+      "title": "Zwei-Faktor-Authentifizierung (2FA)",
+      "description": "Fügen Sie eine zusätzliche Sicherheitsebene zu Ihrem Konto hinzu, indem Sie die Zwei-Faktor-Authentifizierung aktivieren.",
+      "manage2FA": "2FA verwalten"
+    }
+  },
+  "appearanceSettings": {
+    "title": "Erscheinungsbild",
+    "accentColor": {
+      "label": "Akzentfarbe",
+      "selectAccent": "Akzentfarbe {color} auswählen"
+    },
+    "fontSize": {
+      "label": "Schriftgröße",
+      "small": "Klein",
+      "medium": "Mittel",
+      "large": "Groß",
+      "xl": "XL"
+    },
+    "density": {
+      "label": "Dichte",
+      "cozy": "Gemütlich",
+      "compact": "Kompakt"
+    }
+  },
+  "brandingSettings": {
+    "title": "Branding",
+    "appName": "App-Name",
+    "logoUrl": "Logo-URL",
+    "websiteUrl": "Webseiten-URL",
+    "supportUrl": "Support-URL",
+    "preview": "Vorschau"
+  },
+  "securitySettings": {
+    "title": "Sicherheit",
+    "enablePinAppLock": "PIN / App-Sperre aktivieren",
+    "lockOnMinimize": "Bei Minimierung sperren",
+    "setChangePin": "PIN festlegen/ändern",
+    "savePin": "PIN speichern",
+    "encryptLocalDataNow": "Lokale Daten jetzt verschlüsseln",
+    "encrypt": "Verschlüsseln",
+    "toast": {
+      "pin": "PIN",
+      "pinSaved": "PIN gespeichert",
+      "failedToSavePin": "PIN konnte nicht gespeichert werden",
+      "encryption": "Verschlüsselung",
+      "localDataEncrypted": "Lokale Daten verschlüsselt",
+      "failedToEncryptData": "Verschlüsselung der lokalen Daten fehlgeschlagen"
+    }
+  },
+  "developerSettings": {
+    "title": "Entwickler",
+    "developerMode": "Entwicklermodus",
+    "verboseLogs": "Ausführliche Protokolle",
+    "openDataFolder": "Datenordner öffnen",
+    "openConfigFolder": "Konfigurationsordner öffnen",
+    "open": "Öffnen"
+  },
+  "backupRestoreSettings": {
+    "title": "Sicherung & Wiederherstellung",
+    "exportSettings": "Einstellungen exportieren",
+    "importSettings": "Einstellungen importieren",
+    "resetToDefaults": "Auf Standard zurücksetzen",
+    "exportJson": "JSON exportieren",
+    "importJson": "JSON importieren",
+    "reset": "Zurücksetzen",
+    "toast": {
+      "import": "Import",
+      "settingsImportedSuccessfully": "Einstellungen erfolgreich importiert",
+      "failedToImportSettings": "Import der Einstellungen fehlgeschlagen",
+      "reset": "Zurücksetzen",
+      "settingsResetToDefaults": "Einstellungen auf Standard zurückgesetzt"
+    },
+    "confirmation": {
+      "resetSettingsTitle": "Einstellungen zurücksetzen",
+      "resetSettingsMessage": "Möchten Sie wirklich alle Einstellungen auf die Standardwerte zurücksetzen? Diese Aktion kann nicht rückgängig gemacht werden."
+    }
+  },
+  "changelog": {
+    "title": "Änderungsprotokoll"
+  },
+  "status": {
+    "title": "Status"
+  }
+}
